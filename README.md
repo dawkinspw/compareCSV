@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This Python script is designed to compare two CSV files and find the differences between them. It can be used to check whether two CSV files contain identical data or whether one file has additional or missing rows compared to the other file.
+Script compares two CSV files and finds the differences between them. It can be used to check whether two CSV files contain identical data or whether one file has additional or missing rows compared to the other file.
 
 ## Requirements
 
-This script requires Python 3.x and the `csv` module, which is included in the standard library.
+This script requires Python 3.x
 
 ## How to use
 
