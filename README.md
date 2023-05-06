@@ -17,10 +17,8 @@ This script requires Python 3.x and the `csv` module, which is included in the s
 5. Run the script with the following command:
 
 ```sh
-python script_name.py
+python compareCSV.py
 ```
-
-Make sure to replace `script_name.py` with the actual name of the script file.
 
 ## Output
 
