@@ -5,12 +5,12 @@ import csv
 # Open the first file and store the data in a list
 with open('file1.csv', newline='') as file1:
     reader1 = csv.reader(file1)
-    data1 = [row for row in reader1 if any(row)]
+    data1 = [row for row in reader1 if any(row)] # Only includes non-empty rows
 
 # Open the second file and store the data in a list
 with open('file2.csv', newline='') as file2:
     reader2 = csv.reader(file2)
-    data2 = [row for row in reader2 if any(row)]
+    data2 = [row for row in reader2 if any(row)] # Only includes non-empty rows
 
 # Compare the two lists and find the differences
 missingFromFile1 = []
