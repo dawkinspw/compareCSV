@@ -29,20 +29,23 @@ if len(missingFromFile1) == 0 and len(missingFromFile2) == 0:
 # Rows missing from File 1, but not File 2
 elif len(missingFromFile1) != 0 and len(missingFromFile2) == 0:
     print("No rows missing from File 2")
+    print("")
     print("The following rows are missing from File 1:")
     for diff in missingFromFile1:
-        print(diff)
+        print(f"{diff[0]}")
 # Rows missing from File 2, but not File 1
 elif len(missingFromFile1) == 0 and len(missingFromFile2) != 0:
     print("No rows missing from File 1")
+    print("")
     print("The following rows are missing from File 2:")
     for diff in missingFromFile2:
-        print(diff)
+        print(f"{diff[0]}")
 # Rows missing from both files
 else:
     print("The following rows are missing from File 1:")
     for diff in missingFromFile1:
-        print(diff)
+        print(f"{diff[0]}")
+    print("")
     print("The following rows are missing from File 2:")
     for diff in missingFromFile2:
-        print(diff)
+        print(f"{diff[0]}")
